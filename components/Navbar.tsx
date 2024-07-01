@@ -8,16 +8,10 @@ const Navbar = () => {
     <header className="w-full absolute z-10">
       <nav className="max-w-[1440px] mx-auto flex justify-between items-center sm:px-16 px-6 py-4">
         <Link href="/" className="flex flex-col justify-start items-center">
-          <Image
-            src="/logo.webp"
-            alt="Car Hub Logo"
-            width={100}
-            height={20}
-            className="object-contain"
-          />
-          <div className="font-bold text-[14px]">
-            Car Hub
-          </div>
+          <Image src='/logo.webp' alt='logo' width={100} height={20} className='object-contain' />
+          <p className="font-bold text-base">
+            CarHub
+          </p>
         </Link>
         <CustomButton
           title="Sign in"
