@@ -13,10 +13,6 @@ const Footer = () => (
             CarHub
           </p>
         </div>
-        <p className="text-base text-gray-700">
-          CarHub 2024 <br />
-          All Rights Reserved &copy;
-        </p>
       </div>
 
       <div className="footer__links">
